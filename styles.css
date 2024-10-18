@@ -1,0 +1,88 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos del navbar */
+    align-items: center; /* Centra los elementos verticalmente */
+    padding: 20px;
+    background-color:#F47200;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px; /* Espacio entre los links */
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-grow: 1; /* Hace que el hero ocupe el espacio disponible */
+    background-color: #f0f0f0;
+}
+
+.hero-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Círculo */
+    background-color:#F47200;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .hero-title-container {
+        width: 150px;
+        height: 150px;
+    }
+
+    .hero h1 {
+        font-size: 20px;
+    }
+}
