@@ -1,58 +1,47 @@
-# 🌟 Ejercicio: Convertir Layout a Flexbox
+# Ejercicio: Convertir Layout a Flexbox
 
-## 🎯 Objetivo
+## 📋 Descripción del ejercicio
+Este ejercicio consistió en aplicar estilos CSS utilizando **Flexbox** a un archivo HTML proporcionado. El objetivo era crear un diseño que incluyera un **navbar** alineado horizontalmente y un **hero section** centrado tanto vertical como horizontalmente, respetando el diseño y asegurando un layout completamente responsivo.
 
-El objetivo de este ejercicio es tomar un archivo HTML proporcionado y aplicar estilos con **CSS utilizando Flexbox** para que el diseño final se parezca al layout mostrado en la imagen.
+## 🎯 Objetivos:
+- Aplicar **Flexbox** para alinear y distribuir los elementos del diseño.
+- Centrar el contenido principal (hero) tanto vertical como horizontalmente.
+- Asegurar que el layout sea **responsivo**, adaptándose a pantallas grandes y pequeñas.
+- Realizar **commits semánticos** para documentar cada avance.
 
-![Referencia](readme-img/image.png)
+## 🚀 Proceso seguido:
 
-## 🚀 Pasos a seguir
+### 1. Uso del template del repositorio:
+- Cloné el repositorio utilizando el botón "Use this template" y lo cloné en mi entorno local:
+  ```bash
+  git clone https://github.com/mi_usuario/mi_repositorio.git
+  ```
 
-1. **Usar el template del repositorio**
+### 2. Modificación del archivo CSS:
+- Apliqué las propiedades de **Flexbox** en el archivo CSS para lograr que el layout cumpla con los requisitos:
+   - El navbar fue alineado con Flexbox, distribuyendo sus elementos equitativamente.
+   - El hero section fue centrado completamente tanto horizontal como verticalmente.
+   - Implementé media queries para hacer el diseño completamente responsivo.
 
-   - Haz una copia de repositorio con el botón "Use this template" en la parte superior de esta página.
-   - Esto creará un nuevo repositorio en tu cuenta de GitHub basado en el template.
-   - Luego, clona tu repositorio en tu entorno local utilizando Git:
-     ```bash
-     git clone https://github.com/tu_usuario/tu_repositorio.git
-     ```
+### 3. Responsividad:
+- Usé Flexbox y media queries para asegurar que el diseño funcione tanto en pantallas grandes como en dispositivos móviles, manteniendo la usabilidad.
 
-2. **Modificación del archivo CSS**
+### 4. Commits semánticos:
+- Realicé commits descriptivos para cada parte importante del proceso, siguiendo el formato de **commits semánticos**.
 
-   - Aplica las propiedades de **Flexbox** en el archivo CSS para lograr que el layout se parezca al mostrado en la imagen de referencia.
-   - Puedes hacer ajustes en el archivo HTML si es necesario para lograr el diseño deseado.
+Ejemplos:
+- `feat(navbar): align navbar items using flexbox`
+- `feat(hero): center hero content using flexbox`
+- `fix(responsiveness): adjust hero size for mobile`
 
-3. **Requisitos de diseño**:
+### 5. Subida del trabajo a GitHub:
+- Subí el trabajo al repositorio en GitHub usando los siguientes comandos:
+  ```bash
+  git add .
+  git commit -m "feat: apply flexbox to layout"
+  git push
+  ```
 
-   - El **navbar** debe estar alineado horizontalmente con sus elementos distribuidos equitativamente y centrados verticalmente.
-   - El contenido principal debe estar **centrado vertical y horizontalmente** en la pantalla, mostrando un círculo con texto dentro de él, tal como se muestra en la imagen.
-   - Asegúrate de que el diseño sea **responsivo** utilizando Flexbox.
+## 📝 Estilos aplicados (Flexbox)
 
-4. **Commits semánticos** 📋
-
-   - Realiza commits **semánticos** para cada tarea o avance que completes. Esto significa que cada commit debe ser descriptivo y claro sobre qué cambio hiciste.
-
-5. **Sube tu progreso a GitHub** 🚀
-
-   - Sube tu trabajo al repositorio en GitHub.
-     ```bash
-     git add .
-     git commit -m "feat: your commit message"
-     git push
-     ```
-
----
-
-## 🔑 Puntos importantes
-
-- **Uso de Flexbox**: Asegúrate de que la mayor parte del diseño esté centrado utilizando **Flexbox**. Los contenedores y elementos hijos deben aprovechar las propiedades como `justify-content`, `align-items`.
-- **Responsividad**: El diseño debe funcionar tanto en pantallas grandes como pequeñas.
-
-- **Commits semánticos**: Tus commits deben ser descriptivos y claros, de acuerdo a lo que modificas o agregas.
-
-## 📚 Recursos útiles
-
-- [Guía completa de Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Documentación de MDN sobre Flexbox](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
-
-¡Buena suerte y feliz codificación! 🚀
+El archivo `styles.css` contiene los estilos principales, que utilizan Flexbox para cumplir con los requisitos del diseño:
